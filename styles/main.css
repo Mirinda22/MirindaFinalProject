@@ -1,0 +1,61 @@
+/* CURRENTLY IN: styles/main.css */
+
+nav {
+	background-color: #607d8b;
+}
+
+.nav-wrapper__2 {
+	position: absolute;
+	height: vh;
+}
+
+.container__dashboard {
+	height: 33%;
+	width: 75%;
+	margin: 10px;
+	background-color: yellow;
+	float: right;
+}
+
+.bg__card {
+	background-color: #e0f7fa;
+}
+
+.width_third {
+	width: 20%;
+	margin-left: 0;
+}
+
+
+.height__card {
+	height: 300px;
+}
+
+.height__card--title {
+	height: 220px;
+}
+
+
+.bg__card--call {
+	background-color: #f8bbd0;
+}
+
+.link-wrap__col1 {
+	width: 50%;
+	float: left;
+	text-align: center;
+
+}
+
+
+.link-wrap__col2 {
+	width: 50%;
+	float: right;
+	text-align: center;
+
+}
+
+#myChart {
+	background-color: blue;
+	float: left;
+}
