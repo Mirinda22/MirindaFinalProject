@@ -28,9 +28,15 @@ nav {
   border: 2px solid white;
    flex: 1 1 auto;
    align-self: stretch;
-   text-align: center
+   /*text-align: center;*/
+   display: flex;
+   flex-direction: row;
 }
 
+.project_container__left__item__content{
+  align-self: center;
+  margin: 0 auto;
+}
 .project_container__right{
   background-color: red;
   flex: 4 4 auto;
