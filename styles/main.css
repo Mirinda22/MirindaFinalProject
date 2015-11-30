@@ -1,6 +1,6 @@
 /* CURRENTLY IN: styles/main.css */
 nav {
-  background-color: black;
+  background-color: blue;
 }
 
 .project_container{
@@ -10,10 +10,12 @@ nav {
   display:flex;
   flex-direction: row;
   align-items: stretch;
+  border: 5px solid white;
+  padding: 20px;
 }
 
 .project_container__left{
-  background-color: yellow;
+  background-color: black;
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
@@ -21,23 +23,30 @@ nav {
   justify-content: center;
   align-content: flex-end;
   align-items: flex-end;
+  border: 5px solid white;
+  padding: 20px;
 }
 
 .project_container__left__item{
-  background-color: blue;
+  background-color: black;
   border: 2px solid white;
    flex: 1 1 auto;
    align-self: stretch;
-   /*text-align: center;*/
    display: flex;
    flex-direction: row;
+   border: 5px solid white;
+   padding: 20px;
 }
 
 .project_container__left__item__content{
   align-self: center;
   margin: 0 auto;
+  border: 5px solid white;
+  padding: 20px;
 }
 .project_container__right{
-  background-color: red;
+  background-color: black;
   flex: 4 4 auto;
+  border: 5px solid white;
+  padding: 20px;
 }
