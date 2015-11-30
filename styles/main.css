@@ -10,8 +10,8 @@ nav {
   display:flex;
   flex-direction: row;
   align-items: stretch;
-  border: 5px solid white;
-  padding: 20px;
+  border: 0.5em solid red;
+  padding: 1em;
 }
 
 .project_container__left{
@@ -19,34 +19,34 @@ nav {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
   justify-content: center;
-  align-content: flex-end;
-  align-items: flex-end;
-  border: 5px solid white;
-  padding: 20px;
+  /*align-content: flex-end;*/
+  /*align-items: flex-end;*/
+  border: 0.5em solid yellow;
+  padding: 1em;
 }
 
 .project_container__left__item{
   background-color: black;
-  border: 2px solid white;
    flex: 1 1 auto;
    align-self: stretch;
    display: flex;
    flex-direction: row;
-   border: 5px solid white;
-   padding: 20px;
+   border: 0.5em solid green;
+   padding: 1em;
 }
 
 .project_container__left__item__content{
+  background-color:blue;
   align-self: center;
+  jusitfy-content: center;
   margin: 0 auto;
-  border: 5px solid white;
-  padding: 20px;
+  border: 0.5em solid white;
+  padding: 1em;
 }
 .project_container__right{
   background-color: black;
   flex: 4 4 auto;
-  border: 5px solid white;
-  padding: 20px;
+  border: 0.5em solid white;
+  padding: 1em;
 }
